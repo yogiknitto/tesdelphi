@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43039.6472587963" ReportOptions.Description.Text="" ReportOptions.LastChange="43216.5671557292" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxroll" DataSetName="frxroll"/>
+    <item DataSet="frxDBDataset1" DataSetName="fxdetail"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215.9" PaperHeight="297" PaperSize="256" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" DataSet="frxroll" DataSetName="frxroll" EndlessHeight="True" PrintOnPreviousPage="True" HGuides.Text="" VGuides.Text="">
+    <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="318.48052" Left="0" Top="18.89765" Width="740.409927">
+      <TfrxShapeView Name="Shape1" Left="0.77953" Top="1" Width="737.00835" Height="86.92919"/>
+      <TfrxLineView Name="Line1" Left="370.39394" Top="1" Width="0" Height="86.92919" Color="0" Diagonal="True"/>
+      <TfrxMemoView Name="Memo1" Left="0" Top="3.77953" Width="370.39394" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[namatoko]"/>
+      <TfrxMemoView Name="Memo2" Left="0" Top="30.45671" Width="366.61441" Height="18.89765" HAlign="haCenter" Text="[alamattoko]"/>
+      <TfrxMemoView Name="Memo3" Left="0" Top="56.69295" Width="366.61441" Height="18.89765" HAlign="haCenter" Text="[telepon]"/>
+      <TfrxMemoView Name="Memo4" Left="377.953" Top="7.55906" Width="238.11039" Height="18.89765" Text="[nopenjualan]"/>
+      <TfrxMemoView Name="Memo5" Left="444.08689" Top="61.57483" Width="128.50402" Height="18.89765" Text="[tgl]"/>
+      <TfrxMemoView Name="Memo6" Left="623.62245" Top="8.55906" Width="94.48825" Height="18.89765" HAlign="haCenter" Text="KODE"/>
+      <TfrxMemoView Name="Memo7" Left="625.62245" Top="42.13389" Width="94.48825" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[kode]"/>
+      <TfrxShapeView Name="Shape2" Left="1.44094" Top="87.95269" Width="737.00835" Height="139.84261"/>
+      <TfrxMemoView Name="Memo8" Left="3.55906" Top="93.48825" Width="733.22882" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="SURAT JALAN PENJUALAN"/>
+      <TfrxMemoView Name="Memo9" Left="3.77953" Top="113.3859" Width="721.89023" Height="18.89765" Text="[customer]"/>
+      <TfrxMemoView Name="Memo10" Left="3.77952756" Top="135.84261" Width="257.00804" Height="18.89765" Text="[hp]"/>
+      <TfrxMemoView Name="Memo11" Left="495.11843" Top="132.28355" Width="238.11039" Height="90.70872" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[alamat]"/>
+      <TfrxMemoView Name="Memo12" Left="1.33859" Top="285.55133" Width="185.19697" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="jenis kain"/>
+      <TfrxMemoView Name="Memo13" Left="186.9765" Top="285.55133" Width="188.9765" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Warna"/>
+      <TfrxMemoView Name="Memo14" Left="375.7483" Top="285.55133" Width="79.37013" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Body/Rib"/>
+      <TfrxMemoView Name="Memo15" Left="454.5436" Top="285.55133" Width="60.47248" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Lebar"/>
+      <TfrxMemoView Name="Memo16" Left="515.35467" Top="285.55133" Width="56.69295" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Gramasi"/>
+      <TfrxMemoView Name="Memo17" Left="571.94527" Top="285.55133" Width="60.47248" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Jml Roll"/>
+      <TfrxMemoView Name="Memo18" Left="632.18151" Top="285.55133" Width="105.82684" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Berat"/>
+      <TfrxMemoView Name="Memo19" Left="377.953" Top="61.57483" Width="52.91342" Height="18.89765" Text="Tanggal :"/>
+      <TfrxMemoView Name="Memo32" Left="3.77952756" Top="158.29932" Width="257.00804" Height="18.89765" Text="[prov]"/>
+      <TfrxMemoView Name="Memo33" Left="3.77952756" Top="180.75603" Width="257.00804" Height="18.89765" Text="[kota]"/>
+      <TfrxMemoView Name="Memo34" Left="3.77953" Top="202.31509" Width="257.00804" Height="18.89765" Text="[kecamatan]"/>
+      <TfrxMemoView Name="Memo35" Left="264.56692913" Top="132.28355" Width="230.55133" Height="18.89765" Text="[kelurahan]"/>
+      <TfrxMemoView Name="Memo36" Left="264.56692913" Top="157.66141732" Width="222.99227" Height="18.89765" Text="[kodepos]"/>
+      <TfrxMemoView Name="Memo37" Left="264.56692913" Top="181.20472441" Width="222.99227" Height="18.89765" Text="[rtrw]"/>
+      <TfrxMemoView Name="Memo21" Left="3.77953" Top="230.55133" Width="729.44929" Height="52.91342" Text="[ket]"/>
+      <TfrxMemoView Name="Memo38" Left="377.953" Top="34.01577" Width="234.33086" Height="18.89765" Text="[noorder]"/>
+    </TfrxHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22.67718" Left="0" Top="359.05535" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="fxdetail" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="fxdetailnama_kain" Left="1.51181102" Top="0" Width="185.19685039" Height="22.67718" StretchMode="smMaxHeight" DataField="nama_kain" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;nama_kain&#34;]"/>
+      <TfrxMemoView Name="fxdetailbody" Left="375.73253" Top="0" Width="79.37007874" Height="22.67716535" StretchMode="smMaxHeight" DataField="body" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;body&#34;]"/>
+      <TfrxMemoView Name="fxdetailgramasi" Left="514.79561" Top="0" Width="56.69295" Height="22.67716535" StretchMode="smMaxHeight" DataField="gramasi" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;gramasi&#34;]"/>
+      <TfrxMemoView Name="fxdetailroll" Left="571.48856" Top="0" Width="60.47244094" Height="22.67716535" StretchMode="smMaxHeight" DataField="roll" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;roll&#34;]"/>
+      <TfrxMemoView Name="fxdetailberat" Left="632.31496063" Top="0" Width="105.82677165" Height="22.67716535" StretchMode="smMaxHeight" DataField="berat" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;berat&#34;]"/>
+      <TfrxMemoView Name="fxdetailjenis_warna" Left="186.75603" Top="0" Width="188.97637795" Height="22.67716535" StretchMode="smMaxHeight" DataField="jenis_warna" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;jenis_warna&#34;]"/>
+      <TfrxMemoView Name="fxdetaillebar" Left="454.98454" Top="0.11812" Width="60.47244094" Height="22.67716535" StretchMode="smMaxHeight" DataField="lebar" DataSet="frxDBDataset1" DataSetName="fxdetail" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[fxdetail.&#34;lebar&#34;]"/>
+    </TfrxMasterData>
+    <TfrxReportSummary Name="ReportSummary1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="181.41744" Left="0" Top="487.55937" Width="740.409927">
+      <TfrxMemoView Name="Memo20" Left="3.77953" Top="64.25201" Width="351.49629" Height="56.69295" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="NB  : * Komplain Kwalitas Hanya dilayani 3 hari setelah kain di terima &#13;&#10;* Kami tidak bertanggung jawab atas kain Yang telah di cutting&#13;&#10;Barang yang sudah dibeli tidak dapat dikembalikan kecuali cacat pabrik&#13;&#10;Barang Tidak akan di kirim jika pembayaran belum lunas"/>
+      <TfrxShapeView Name="Shape3" Left="0" Top="0" Width="570.70903" Height="56.69295"/>
+      <TfrxShapeView Name="Shape4" Left="571.48856" Top="0" Width="60.47235795" Height="56.69291339"/>
+      <TfrxShapeView Name="Shape5" Left="631.74057" Top="0" Width="106.96062992" Height="56.69291339"/>
+      <TfrxMemoView Name="Memo22" Left="577.04762" Top="18.89765" Width="49.13389" Height="18.89765" Text="[totalroll]"/>
+      <TfrxMemoView Name="Memo23" Left="634.96104" Top="18.89765" Width="98.26778" Height="18.89765" HAlign="haCenter" Text="[totalkg]"/>
+      <TfrxMemoView Name="Memo24" Left="3.77953" Top="128.28355" Width="94.48825" Height="18.89765" Text="Supir :"/>
+      <TfrxMemoView Name="Memo25" Left="3.77953" Top="158.51979" Width="94.48825" Height="18.89765" Text="Mobil :"/>
+      <TfrxMemoView Name="Memo26" Left="380.85065" Top="89.92919" Width="94.48825" Height="18.89765" HAlign="haCenter" Text="Penerima"/>
+      <TfrxMemoView Name="Memo27" Left="376.85065" Top="143.62214" Width="105.82684" Height="18.89765" Text="(                         )"/>
+      <TfrxMemoView Name="Memo28" Left="517.57514" Top="90.70872" Width="94.48825" Height="18.89765" HAlign="haCenter" Text="Security"/>
+      <TfrxMemoView Name="Memo29" Left="513.79561" Top="143.62214" Width="105.82684" Height="18.89765" Text="(                         )"/>
+      <TfrxMemoView Name="Memo30" Left="638.74057" Top="90.70872" Width="94.48825" Height="18.89765" HAlign="haCenter" Text="Hormat Kami"/>
+      <TfrxMemoView Name="Memo31" Left="631.18151" Top="143.62214" Width="105.82684" Height="18.89765" Text="(                         )"/>
+    </TfrxReportSummary>
+    <TfrxDetailData Name="DetailData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22.67718" Left="0" Top="404.40971" Width="740.409927" ColumnWidth="0" ColumnGap="0" DataSet="frxroll" DataSetName="frxroll" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="frxrollroll" Left="1.51181102" Top="0" Width="736.62992126" Height="22.67718" StretchMode="smMaxHeight" DataField="roll" DataSet="frxroll" DataSetName="frxroll" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[frxroll.&#34;roll&#34;]"/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>

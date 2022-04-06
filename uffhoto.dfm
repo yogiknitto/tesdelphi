@@ -1,0 +1,34 @@
+object ffhoto: Tffhoto
+  Left = 0
+  Top = 0
+  ClientHeight = 509
+  ClientWidth = 929
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object rImageZoom1: TrImageZoom
+    Left = 0
+    Top = 0
+    Width = 929
+    Height = 509
+    Align = alClient
+    DragCursor = crSizeAll
+    PopupMenu = rImageZoom1._ImagePopup
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    UseFocus = True
+    SaveInJPG = False
+    ExplicitLeft = 608
+    ExplicitTop = 1
+    ExplicitWidth = 321
+    ExplicitHeight = 202
+  end
+end
